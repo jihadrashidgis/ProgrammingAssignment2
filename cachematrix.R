@@ -3,11 +3,6 @@
 
 ## Write a short comment describing this function
 ##This function will take the object (list of functions) returned by makeCacheMatrix(). 
-##First, it call getinverse(). If there is an inverse matrix stored in the object, 
-##i.e. j is not NULL, then it will return j as the result. If no inverse matrix is 
-##stored in the object, it will call get() and get the matrix stored in the object. 
-##Then an inverse matrix is calculated and stored back into the object by calling 
-##setinverse() and then return the inverse matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
